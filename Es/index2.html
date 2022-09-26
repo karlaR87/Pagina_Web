@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SIPI</title>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="shortcut icon" href="logo.ico">
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+
+    <!-- FontAwesome JS-->
+    <script defer src="recursos/fontawesome/js/all.min.js"></script>
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="recursos/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="recursos/css/styles.css">
+
+
+
+    <link rel="stylesheet" href="recursos/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="recursos/css/responsive.css">
+    <link rel="stylesheet" href="recursos/css/animate.min.css">
+
+
+</head>
+
+<body>
+
+
+    <!-- Encaabezdo -->
+    <section class="banner" role="banner">
+        <!-- Navegacion -->
+        <header id="header">
+            <div class="header-content clearfix"> <a class="logo navbar-brand scrollto" href="#hero">
+                    <span class="logo-icon-wrapper"><img class="logo-icon" src="recursos/images/logo-icon.svg"
+                            alt="icon"></span>
+                    <span class="text"><span class="highlight">SI</span>PI</span>
+                </a>
+                <nav class="navigation" role="navigation">
+                    <ul class="primary-nav">
+
+                        <li class="nav-item"><a class="nav-link scrollto" href="#about">Sobre nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#testimonials">Objetivos</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#features">Funciones de la
+                                aplicacion</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#team">Equipo</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="../En/index.html">English</a></li>
+                        
+
+                    </ul>
+                </nav>
+                <a href="#" class="nav-toggle">Menu<span></span></a>
+            </div>
+        </header>
+
+
+
+
+
+        <!-- encabezado carrusel -->
+        </header>
+        <div id="hero" class="hero-section">
+
+            <div id="hero-carousel" class="hero-carousel carousel carousel-fade slide" data-bs-ride="carousel"
+                data-bs-interval="10000">
+
+                <div class="figure-holder-wrapper">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="figure-holder">
+                                <img class="figure-image img-fluid" src="recursos/images/imac.png" alt="image" />
+                            </div>
+                        </div>
+                        <!--Flecha-->
+                    </div>
+                    <!--container-->
+                </div><!-- Envotorio de Figuras-->
+
+                <!-- Indicadores de lista -->
+                <ol class="carousel-indicators">
+                    <li class="active" data-bs-slide-to="0" data-bs-target="#hero-carousel"></li>
+                    <li data-bs-slide-to="1" data-bs-target="#hero-carousel"></li>
+                    <li data-bs-slide-to="2" data-bs-target="#hero-carousel"></li>
+                </ol>
+
+                <!-- Texto para los envoltorios -->
+
+                <!-- Primero -->
+                <div class="carousel-inner">
+
+                    <div class="carousel-item item-1 active">
+                        <div class="item-content container">
+                            <div class="item-content-inner">
+
+                                <h2 class="heading">Muebles.SV es el programa perfecto para la gestion de procesos <br
+                                        class="d-none d-md-block">para tu empresa</h2>
+                                <p class="intro">Descarga ya el manual del programa en el botón que dice descarga
+                                    r</p>
+                                <a class="btn btn-primary btn-cta" href="recursos/Documentos/Manual de usuario.pdf" download="Nombre-del-archivo">>Descargar</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Segundo -->
+
+                    <div class="carousel-item item-2">
+                        <div class="item-content container">
+                            <div class="item-content-inner">
+
+                                <h2 class="heading">¿No entiendes nuestro a SIPI?</h2>
+                                <p class="intro">Mira este video explicativo de nuestro programa</p>
+                                <a class="btn btn-primary btn-cta" href="https://drive.google.com/file/d/1hWxKSe5HN4PCxUE_j5lPsEXtX77x_QHS/view"
+                                    target="_blank">Video</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tercero -->
+
+                    <div class="carousel-item item-3">
+                        <div class="item-content container">
+                            <div class="item-content-inner">
+
+                                <h2 class="heading">No sabes como instalar el programa?</h2>
+                                <p class="intro"> Mira este video de como instalar nuestro programa</p>
+                                <a class="btn btn-primary btn-cta" href="https://drive.google.com/file/d/1hWxKSe5HN4PCxUE_j5lPsEXtX77x_QHS/view" target="_blank">Video</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- carrusel de imagenes-->
+
+            </div>
+            <!--//carrusel-->
+        </div>
+
+
+
+<style type="text/css">
+    
+.photo{
+
+}
+
+.photo23 img{
+  width: 400px;S
+  height: 380px;
+  object-fit: cover;
+  margin-left: 25%;
+  filter: grayscale(100%) contrast(120%);
+  box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+  display: block;
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: -10px;
+}
+
+.photo23:hover img{
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+
+.photo23 .glow-wrap{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: -10px;
+}
+
+.photo23 .glow{
+  display: block;
+  position:absolute;
+  width: 40%;
+  height: 200%;
+  background: rgba(255,255,255,.2);
+  top: 0;
+  filter: blur(5px);
+  transform: rotate(45deg) translate(-450%, 0);
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.photo23:hover .glow{
+  transform: rotate(45deg) translate(450%, 0);
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.photo23:hover img,
+.photo23:hover .glow-wrap{
+  margin-top: 0;
+}
+
+
+</style>
+
+        <div id="about" class="about-section">
+            <div class="container text-center">
+                <h2 class="section-title">Por que ocupar nuestro programa?</h2>
+                <p class="intro">La principal razon de el uso de nuestro programa es el de que es un programa que
+                    cualquiera puede descargar y utilizar en su linea de producción</p>
+                <ul class="technologies list-inline">
+                    <li class="list-inline-item"><img src="recursos/images/Logo-V.jfif" alt="Visual"></li>
+                    <li class="list-inline-item"><img src="recursos/images/Logo-Sql.png" alt="Sql"></li>
+
+
+                </ul>
+
+                <div class="items-wrapper row">
+                    <div class="item col-md-4 col-12">
+                        <div class="item-inner">
+                            <div class="figure-holder">
+                                <img class="figure-image" src="recursos/images/figure-1.png" alt="image">
+                            </div>
+                            <h3 class="item-title">Mayor eficiencia en las lineas de produccion</h3>
+
+                            <div class="item-desc mb-3">
+                                <!--Escribirxd-->
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Final del item-->
+
+
+                    <div class="item col-md-4 col-12">
+                        <div class="item-inner">
+                            <div class="figure-holder">
+                                <img class="figure-image" src="recursos/images/figure-2.png" alt="image">
+                            </div>
+                            <!--//figure-holder-->
+                            <h3 class="item-title">Aumento de la Eficacia en sus tiempos de produccion</h3>
+                            <div class="item-desc mb-3">
+                                <!--Escribirxd-->
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Final del item2-->
+
+
+
+
+
+                    <div class="item col-md-4 col-12">
+                        <div class="item-inner">
+                            <div class="figure-holder">
+                                <img class="figure-image" src="recursos/images/figure-3.png" alt="image">
+                            </div>
+                            <!--//figure-holder-->
+                            <h3 class="item-title">Gestionamiento de pedidos</h3>
+                            <div class="item-desc mb-3">
+                                <!--Escribirxd-->
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Final del item3-->
+
+
+                </div>
+                <!--//items-contenedor-->
+            </div>
+            <!--//Contenerdo goblal It-->
+        </div>
+
+
+
+
+
+        <div id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title text-center">Objetivos</h2>
+                <div class="item mx-auto">
+                    <div class="profile-holder">
+                        <img class="profile-image" src="recursos/images/profile-1.png" alt="profile">
+                    </div>
+                    <div class="quote-holder">
+                        <blockquote class="quote">
+                            <p>Realizar un sistema funcional para la gestión de datos de una empresa para así mejorar
+                                los niveles de satisfacción del cliente, y aumentar la productividad de los empleados,
+                                haciendo que el sistema logre solucionar los problemas que sufren las empresas que no
+                                cuentan con una buena organización.</p>
+                            <div class="quote-source">
+
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <!--Final del item-->
+
+
+                <div class="item item-reversed mx-auto">
+                    <div class="profile-holder">
+                        <img class="profile-image" src="recursos/images/profile-2.png" alt="profile">
+                    </div>
+                    <div class="quote-holder">
+                        <blockquote class="quote">
+                            <p>Demostrar mayor efectividad y rendimiento por parte de los empleados a la hora de hacer
+                                su trabajo, para que a este le resulte agradable trabajar con el suministrador, y así
+                                poder darle una mayor satisfacción a los clientes.
+                            </p>
+                            <div class="quote-source">
+
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <!--Final del item-->
+
+
+                <div class="item mx-auto">
+                    <div class="profile-holder">
+                        <img class="profile-image" src="recursos/images/profile-3.png" alt="profile">
+                    </div>
+                    <div class="quote-holder">
+                        <blockquote class="quote">
+                            <p>Categorizar el sistema de forma ordenada para ayudar a la gestión de datos de las
+                                empresas con líneas de producción especializadas.
+                            </p>
+                            <div class="quote-source">
+
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <!--Final del item-->
+
+
+                <div class="item item-reversed mx-auto">
+                    <div class="profile-holder">
+                        <img class="profile-image" src="recursos/images/profile-4.png" alt="profile">
+                    </div>
+                    <div class="quote-holder">
+                        <blockquote class="quote">
+                            <p>Determinar el software como un programa sencillo para que los usuarios se les facilite su
+                                uso.</p>
+                            <div class="quote-source">
+
+                            </div>
+                        </blockquote>
+
+                    </div>
+                </div>
+                <!--Final del item-->
+
+                <div class="text-center mt-4">
+                    <!--<a class="btn btn-inverse btn-cta" href="!-Poner pagina de sites" target="_blank">Pagina de
+                        Sites</a>-->
+                </div>
+            </div>
+            <!--Contenedor-->
+        </div><!-- Final Objetivos-->
+
+        <div id="features" class="features-section">
+            <div class="container text-center">
+                <h2 class="section-title">Funciones del programa</h2>
+                <p class="intro">Se refiere a un sistema de control de procesos como una forma de mantener organizada
+                    toda la información que se obtiene de la realización de productos mayormente hechos a mano, en donde
+                    se usa una serie de herramientas para analizar los procesos de un negocio o empresa, esto con el fin
+                    de mantener un orden dentro de los empleados y la empresa, ya que se puede tener una mejor
+                    organización mediante un sistema que lleve el control de de los procesos hechos y por hacer.
+                </p>
+
+
+                <div class="tabbed-area row">
+
+                    <!-- tablas de navegacion -->
+                    <div class="feature-nav nav nav-pill flex-column col-lg-4 col-md-6 col-12 order-0 order-md-1"
+                        role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active mb-lg-3" href="#feature-1" aria-controls="feature-1"
+                            data-bs-toggle="pill" role="tab" aria-selected="true"><i
+                                class="fa-solid fa-magic me-2"></i>Interfaz de Administrador</a>
+                        <a class="nav-link mb-lg-3" href="#feature-2" aria-controls="feature-2" data-bs-toggle="pill"
+                            role="tab" aria-selected="false"><i class="fa-solid fa-cubes me-2"></i>Interfaz de
+                            trabajador</a>
+                        <a class="nav-link mb-lg-3" href="#feature-3" aria-controls="feature-3" data-bs-toggle="pill"
+                            role="tab" aria-selected="false"><i class="fa-solid fa-chart-bar me-2"></i>Multiples
+                            herramientas</a>
+                        <a class="nav-link mb-lg-3" href="#feature-4" aria-controls="feature-4" data-bs-toggle="pill"
+                            role="tab" aria-selected="false"><i class="fa-solid fa-code me-2"></i>Diseño responsivo</a>
+                        <a class="nav-link mb-lg-3" href="#feature-5" aria-controls="feature-5" data-bs-toggle="pill"
+                            role="tab" aria-selected="false"><i class="fa-solid fa-rocket me-2"></i>trabajador y
+                            administrador</a>
+                        <a class="nav-link mb-lg-3" href="#feature-6" aria-controls="feature-6" data-bs-toggle="pill"
+                            role="tab" aria-selected="false"><i class="fa-solid fa-mobile-alt me-2"></i>interfaz
+                            Amigable</a>
+                        
+                    </div>
+
+                    <!-- paneles de navegacion -->
+                    <div class="feature-content tab-content col-lg-8 col-md-6 col-12 order-1 order-md-0">
+                        <div role="tabpanel" class="tab-pane fade show active" id="feature-1">
+                            <img class="img-fluid" src="recursos/images/feature-1.png" alt="screenshot"></a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-2">
+                            <img class="img-fluid" src="recursos/images/feature-2.png" alt="screenshot"></a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-3">
+                            <img class="img-fluid" src="recursos/images/feature-3.png" alt="screenshot"></a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-4">
+                            <img class="img-fluid" src="recursos/images/feature-4.png" alt="screenshot"></a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-5">
+                            <img class="img-fluid" src="recursos/images/feature-5.png" alt="screenshot"></a>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="feature-6">
+                            <img class="img-fluid" src="recursos/images/feature-6.png" alt="screenshot"></a>
+                        </div>
+                        
+
+                    </div>
+                    <!--//terminan paneles-->
+
+
+                </div>
+
+            </div>
+            <!--//contenedor principal-->
+        </div>
+
+        <div class="team-section" id="team">
+            <div class="container text-center">
+                <h2 class="section-title">Equipo de desarrolladores: </h2>
+                <div class="story">
+                </div>
+
+                <div class="members-wrapper row">
+                    <div class="item col-md-6 col-12">
+                        <div class="item-inner">
+                            <div class="profile mb-3">
+                                <img class="profile-image" src="recursos/images/karla.png" alt="image" />
+                            </div>
+
+                            <div class="member-content">
+                                <h3 class="member-name">Karla Reneé Rivas Hernández</h3>
+                                <div class="member-title">Coordinadora</div>
+                                <div class="space"></div>
+                                <div class="member-desc">
+                                    <p>Su rol asignado fue el de coordinadora, ella es la encargada de la organización
+                                        y coordinación del proyecto
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--terminar miembros item-->
+                    </div>
+
+
+                    <div class="item col-md-6 col-12">
+                        <div class="item-inner">
+                            <div class="profile mb-3">
+                                <img class="profile-image" src="recursos/images/Emiliano.png" alt="Tom Najdek" />
+                            </div>
+
+                            <div class="member-content">
+                                <h3 class="member-name">Josué Emiliano Valdés Jacobo</h3>
+                                <div class="member-title">Sub coordinador</div>
+                                <div class="space"></div>
+                                <div class="member-desc">
+                                    <p>Su rol asignado fue sub coordinador y su función de apoyar al equipo y ser la mano derecha de la coordinadora en la
+                                        toma decisiones </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--terminar miembros item-->
+                    </div>
+
+                    <div class="space2"></div>
+                    <div class="members-wrapper row">
+                        <div class="item col-md-6 col-12">
+                            <div class="item-inner">
+                                <div class="profile mb-3">
+                                    <img class="profile-image" src="recursos/images/sarai.png" alt="image" />
+                                </div>
+
+                                <div class="member-content">
+                                    <h3 class="member-name">Alejandra Saraí Monterroza Sánchez</h3>
+                                    <div class="member-title">Secretaria</div>
+                                    <div class="space"></div>
+                                    <div class="member-desc">
+                                        <p>Su rol asignado fue secretaria y su función es llevar en orden los documentos y apoyar a los demás integrantes</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--terminar miembros item-->
+                        </div>
+
+
+
+                        <div class="item col-md-6 col-12">
+                            <div class="item-inner">
+                                <div class="profile mb-3">
+                                    <img class="profile-image" src="recursos/images/andy.png" alt="Tom Najdek" />
+                                </div>
+
+                                <div class="member-content">
+                                    <h3 class="member-name">Andy Alejandro Pineda Hernández</h3>
+                                    <div class="member-title">Vocal</div>
+                                    <div class="space"></div>
+                                    <div class="member-desc">
+                                        <p>Su rol asignado fue Vocal y su función que tiene es el apoyo a todos los
+                                            demás integrantes
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--terminar miembros item-->
+                        </div>
+
+                        <div class="space2"></div>
+                        <div class="members-wrapper row">
+                            <div class="item col-md-6 col-12">
+                                <div class="item-inner">
+                                    <div class="profile mb-3">
+                                        <img class="profile-image" src="recursos/images/oscar.png" alt="image" />
+                                    </div>
+
+                                    <div class="member-content">
+                                        <h3 class="member-name">Oscar Daniel Ramírez Martínez</h3>
+                                        <div class="member-title">Vocal 2</div>
+                                        <div class="space"></div>
+                                        <div class="member-desc">
+                                            <p>Su rol asignado fue Vocal y su función que tiene es el apoyo a todos los
+                                                demás integrantes </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--terminar miembros item-->
+                            </div>
+
+                            <div class="item col-md-6 col-12">
+                                <div class="item-inner">
+                                    <div class="profile mb-3">
+                                        <img class="profile-image" src="recursos/images/alison.PNG" alt="Tom Najdek" />
+                                    </div>
+
+                                    <div class="member-content">
+                                        <h3 class="member-name">Alisson Ivania Zepeda Cáceres</h3>
+                                        <div class="member-title">Vocal 3</div>
+                                        <div class="space"></div>
+                                        <div class="member-desc">
+                                            <p>Su rol asignado fue Vocal y su función que tiene es el apoyo a todos los
+                                                demás integrantes
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--terminar miembros item-->
+                            </div>
+
+                        </div>
+                        <div class="text-center mt-5">
+                        </div>
+                    </div>
+                </div>
+                <!--equipo-->
+
+
+
+
+
+                <div id="contact" class="contact-section">
+                    <div class="container text-center">
+                        <h2 class="section-title">Contáctenos</h2>
+                        <div class="contact-content">
+                            <p>Nuestros contactos oficiales</p>
+                            <p>Tel: 6998-3522 </p>
+                            <p>Correo: <a href="https://mail.google.com/mail/u/0/?tab=rm#search/20200308%40ricaldone.edu.sv">sipi@gmail.com </a></p> 
+                            <p>Redes sociales</p>
+                            <p>instagram <a href="https://instagram.com/__karlarivas__?igshid=YmMyMTA2M2Y=">sipielsavador</a></p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <!--fotter-->
+                <footer class="footer text-center">
+                    <div class="container">
+
+
+                    </div>
+                </footer>
+
+
+
+
+                <!-- Javascript -->
+                <script src="recursos/plugins/bootstrap/js/bootstrap.min.js"></script>
+                <script src="recursos/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+                <script src="recursos/js/main.js"></script>
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                <script src="recursos/js/bootstrap.min.js"></script>
+                <script src="recursos/js/jquery.fancybox.pack.js"></script>
+                <script src="recursos/js/retina.min.js"></script>
+                <script src="recursos/js/barra.js"></script>
+
+</body>
+
+</html>
